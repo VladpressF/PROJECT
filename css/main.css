@@ -326,11 +326,11 @@ header {
 .upfooter_section {
   height: 600px;
   background-image:   
-/* linear-gradient( */ 
-  /* to right ,
+linear-gradient( 
+   to right ,
   rgba(0, 0, 0, 1) 35%,
   rgba(255,255,255)
-), */ url("../img/photo_2022-06-23_21-45-36\ 1.jpg");
+),  url("../img/photo_2022-06-23_21-45-36\ 1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
