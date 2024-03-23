@@ -74,46 +74,44 @@ header {
     0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
 }
 .butn2 {
-  background-color: #C85312;
+  background-color: #c85312;
   color: white;
   width: 80px;
   height: 35px;
   border: 0px;
   border-radius: 5px 5px;
-  
 }
 .but1 {
   position: relative;
   top: 17px;
   left: 60px;
-
 }
 .but2 {
   position: relative;
   bottom: 10px;
-
 }
 .but3 {
   position: relative;
   left: 20px;
 }
- 
 
 .div_figure {
   margin-top: 140px;
   display: flex;
   justify-content: space-between;
-
 }
 .first_fig {
-  background: linear-gradient(81.4deg, #000000 -110.34%, rgba(0, 0, 0, 0) 80.32%);
+  background: linear-gradient(
+    81.4deg,
+    #000000 -110.34%,
+    rgba(0, 0, 0, 0) 80.32%
+  );
   display: flex;
   background-color: #272727;
   width: 310px;
   color: #ffffff;
   font-weight: 100;
   font-size: 24px;
-
 }
 .first_figc {
   width: 50%;
@@ -131,10 +129,13 @@ header {
   position: relative;
   margin: 17px 0 17px 0;
   height: 225px;
-
 }
 .second-figure {
-  background: linear-gradient(81.4deg, #000000 -110.34%, rgba(0, 0, 0, 0) 80.32%);
+  background: linear-gradient(
+    81.4deg,
+    #000000 -110.34%,
+    rgba(0, 0, 0, 0) 80.32%
+  );
   display: flex;
   background-color: #272727;
   width: 310px;
@@ -158,7 +159,11 @@ header {
 }
 
 .thirt_fig {
-  background: linear-gradient(81.4deg, #000000 -110.34%, rgba(0, 0, 0, 0) 80.32%);
+  background: linear-gradient(
+    81.4deg,
+    #000000 -110.34%,
+    rgba(0, 0, 0, 0) 80.32%
+  );
   display: flex;
   background-color: #272727;
   width: 310px;
@@ -180,18 +185,16 @@ header {
   width: 193px;
   height: 193px;
 }
-.first_fig ,
+.first_fig,
 .second-figure {
-  
   margin-right: 104px;
 }
 .header {
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .img_path img {
   position: absolute;
   bottom: 25px;
-
 }
 .img_path1 img {
   position: absolute;
@@ -202,16 +205,13 @@ header {
   position: absolute;
   bottom: 5px;
   left: 1270px;
-
 }
-
 
 .menu {
   background-color: #202023;
-
 }
 .h_menu {
-  font-weight: 100 ;
+  font-weight: 100;
   color: #ffffff;
   font-size: 64px;
   text-align: center;
@@ -221,9 +221,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding:  0 200px 0 200px;
+  padding: 0 200px 0 200px;
 }
-
 
 .m_f_f_div {
   border: 1px solid white;
@@ -232,37 +231,32 @@ header {
   height: 250px;
 }
 .m_f_f {
-  
   width: 330px;
-  
-
 }
 
 .m_f_i_item_h4 {
-
   text-align: center;
   font-weight: 800;
   color: white;
   font-size: 25px;
 }
-.m_f_img 
-{
+.m_f_img {
   width: 294px;
   height: 185px;
 }
 .m_img {
- width: 100%;
- height: 80%;
- object-fit: contain;
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
 }
 
-.butn5  {
-  background-color: #B47B48;
+.butn5 {
+  background-color: #b47b48;
   color: white;
   width: 160px;
   height: 40px;
-  border: 0px ;
-  border-radius: 100px 100px ;
+  border: 0px;
+  border-radius: 100px 100px;
   display: block;
   margin: 20px auto 30px auto;
 }
@@ -271,41 +265,53 @@ header {
   font-size: 26px;
 }
 .quality-our-bekary {
+  height: 900px;
+  background: url("../img/Quality\ our\ bekary.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #202023;
-
 }
-.quality_h   {
+.quality_h {
   text-align: right;
- padding-right: 100px;
+  padding-right: 100px;
   padding-top: 90px;
   color: white;
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-size: 64px;
-
 }
 .quality_f_figure {
-
 }
-.quality_f_list  {
+.quality_f_list {
   background-color: rgba(242, 242, 242, 0.3);
   width: 292px;
   height: 198px;
-  padding-left:   50px ;
+  padding-left: 50px;
   width: 250px;
   height: 125px;
-
 }
 .quality_f_item {
   padding-top: 5px;
   text-align: center;
-  color:white;
+  color: white;
 }
 .quality_div {
-
   display: flex;
   justify-content: space-between;
   height: 650px;
+}
+.quality_f_img {
+  width: 355px;
+  height: 220px;
+}
+.quality_s_img {
+  width: 275px;
+  height: 285px;
+}
+.quality_t_img {
+  width: 335px;
+  height: 330px;
 }
 
 .list1 {
@@ -317,3 +323,68 @@ header {
 .list3 {
   align-self: flex-end;
 }
+.upfooter_section {
+  height: 600px;
+  background-image:   
+/* linear-gradient( */ 
+  /* to right ,
+  rgba(0, 0, 0, 1) 35%,
+  rgba(255,255,255)
+), */ url("../img/photo_2022-06-23_21-45-36\ 1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.upf_h {
+  padding-top: 55px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  position: relative;
+  left: 200px;
+  color: white;
+}
+.upf_div {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 150px;
+}
+.upf_figc {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  right: 40px;
+}
+.upf_s_figc {
+  left: 6px;
+}
+.where-how-when {
+  height: 750px;
+  background-color: #202023;
+}
+.whw_h {
+  color: white;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  padding: 66px 0 45px 160px;
+
+}
+.whw_map {
+  padding: 0 0 0 167px;
+}
+.whw_pos {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.whw_how_pos{
+  position: relative;
+  bottom: 330px;
+  padding-left: 900px;
+}
+
