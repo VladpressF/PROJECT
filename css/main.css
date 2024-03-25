@@ -340,8 +340,7 @@ linear-gradient(
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-size: 48px;
-  position: relative;
-  left: 200px;
+
   color: white;
 }
 .upf_div {
@@ -383,8 +382,7 @@ linear-gradient(
   color: rgba(255, 255, 255, 0.7);
 }
 .whw_how_pos{
-  position: relative;
-  bottom: 330px;
+ 
   padding-left: 900px;
   font-weight: 200;
 }
@@ -396,14 +394,7 @@ linear-gradient(
   position: relative;
   bottom: 445px; 
 }
-.whw_how_numer {
-  position: relative;
-  bottom: 400px;
-}
-.whw_how_tt {
-  position: relative;
-  bottom: 350px;
-}
+
 .whw-when-h {
   color: white;
   font-weight: 400;
@@ -422,4 +413,13 @@ linear-gradient(
   font-size: 24px;
 
 }
+.whw_how_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
 
