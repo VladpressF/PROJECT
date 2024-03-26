@@ -417,7 +417,7 @@ header {
 }
 .footer {
   background-color: #202023;
-  height: 350px;
+  height: 450px;
 
 
 }
@@ -432,7 +432,6 @@ header {
 .footer_h {
   font-weight: 200;
   font-size: 40px;
-  padding: 62px  0 16px 160px;
 
 }
 .footer_div1_a {
@@ -442,7 +441,11 @@ header {
 }
 .fdiv {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
+
+
+}
+.newclass {
+  display: flex;
+  justify-content: space-between;
 }
