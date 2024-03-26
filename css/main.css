@@ -194,17 +194,17 @@ header {
 }
 .img_path img {
   position: absolute;
-  bottom: 25px;
+  top: 860px;
 }
 .img_path1 img {
   position: absolute;
-  bottom: 0px;
-  left: 840px;
+  top: 870px;
+  left: 850px;
 }
 .img_path2 img {
   position: absolute;
-  bottom: 5px;
-  left: 1270px;
+  top: 870px;
+  left: 1280px;
 }
 
 .menu {
@@ -346,22 +346,24 @@ header {
 .upf_div {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  top: 150px;
+  padding-top: 150px;
+
 }
 .upf_figc {
   color: white;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
+  
   position: relative;
   right: 40px;
+ 
 }
 .upf_s_figc {
   left: 6px;
 }
 .where-how-when {
-  height: 750px;
+
   background-color: #202023;
 }
 .whw_h {
@@ -369,10 +371,11 @@ header {
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-size: 64px;
-  padding: 66px 0 45px 160px;
+  padding-top: 66px;
+  padding-bottom: 30px;
 }
 .whw_map {
-  padding: 0 0 0 167px;
+
 }
 .whw_pos {
   text-decoration: none;
@@ -381,43 +384,34 @@ header {
   color: rgba(255, 255, 255, 0.7);
 }
 .whw_how_pos {
-  padding-left: 900px;
+
   font-weight: 200;
 }
 .whw_how_h {
   font-weight: 400;
   font-size: 40px;
   color: white;
-  padding-left: 910px;
-  position: relative;
-  bottom: 445px;
+
+ 
 }
 
 .whw-when-h {
   color: white;
   font-weight: 400;
   font-size: 40px;
-  position: relative;
-  bottom: 575px;
-  left: 1250px;
+
+
 }
 .whw-when-p {
-  position: relative;
-  left: 1260px;
-  bottom: 545px;
+
   color: rgba(255, 255, 255, 0.7);
   font-weight: 200;
   font-size: 24px;
 }
-.whw_how_div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
+
 .footer {
   background-color: #202023;
-  height: 450px;
+padding: 70px 0;
 
 
 }
@@ -428,6 +422,8 @@ header {
   font-size: 24px;
   font-weight: 300;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 .footer_h {
   font-weight: 200;
@@ -442,10 +438,32 @@ header {
 .fdiv {
   display: flex;
   flex-direction: column;
-
+  padding-bottom: 75px;
 
 }
 .newclass {
   display: flex;
   justify-content: space-between;
+  
 }
+/* .footer_div4_h {
+  padding-left: 30px;
+} */
+.whw_how_div {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; */
+}
+.div_div {
+  padding-left: 200px;
+}
+.ab {
+  padding-left: 200px;
+  
+}
+.whw_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
