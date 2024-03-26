@@ -325,12 +325,12 @@ header {
 }
 .upfooter_section {
   height: 600px;
-  background-image:   
-linear-gradient( 
-   to right ,
-  rgba(0, 0, 0, 1) 5%,
-  rgba(255,255,255,0)
-),  url("../img/photo_2022-06-23_21-45-36\ 1.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 5%,
+      rgba(255, 255, 255, 0)
+    ),
+    url("../img/photo_2022-06-23_21-45-36\ 1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -370,7 +370,6 @@ linear-gradient(
   font-weight: 400;
   font-size: 64px;
   padding: 66px 0 45px 160px;
-
 }
 .whw_map {
   padding: 0 0 0 167px;
@@ -381,8 +380,7 @@ linear-gradient(
   font-size: 24px;
   color: rgba(255, 255, 255, 0.7);
 }
-.whw_how_pos{
- 
+.whw_how_pos {
   padding-left: 900px;
   font-weight: 200;
 }
@@ -392,7 +390,7 @@ linear-gradient(
   color: white;
   padding-left: 910px;
   position: relative;
-  bottom: 445px; 
+  bottom: 445px;
 }
 
 .whw-when-h {
@@ -402,7 +400,6 @@ linear-gradient(
   position: relative;
   bottom: 575px;
   left: 1250px;
-
 }
 .whw-when-p {
   position: relative;
@@ -411,15 +408,41 @@ linear-gradient(
   color: rgba(255, 255, 255, 0.7);
   font-weight: 200;
   font-size: 24px;
-
 }
 .whw_how_div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  
-  
 }
+.footer {
+  background-color: #202023;
+  height: 350px;
 
 
+}
+.h,
+.p,
+.a {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footer_h {
+  font-weight: 200;
+  font-size: 40px;
+  padding: 62px  0 16px 160px;
+
+}
+.footer_div1_a {
+  font-size: 20px;
+  padding: 0 0 153px 177px;
+
+}
+.fdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
