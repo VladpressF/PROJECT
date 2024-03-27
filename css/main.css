@@ -198,12 +198,12 @@ header {
 .img_path1 img {
   position: absolute;
   top: 870px;
-  left: 850px;
+  right: 780px;
 }
 .img_path2 img {
   position: absolute;
   top: 870px;
-  left: 1280px;
+  right: 330px;
 }
 
 .menu {
