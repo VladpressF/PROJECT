@@ -1,3 +1,4 @@
+
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -40,7 +41,6 @@ header {
 .butn {
   width: 170px;
   margin-top: 30px;
-  margin-left: 160px;
   background: linear-gradient(to bottom right, #ff8a5a, #b47b48 79%);
   border: 0;
   border-radius: 12px;
@@ -145,6 +145,7 @@ header {
 }
 .second_figc {
   margin: 51px 0 13px 0px;
+  text-align: center;
 }
 .s_figc_item {
   margin-top: 13px;
@@ -154,8 +155,9 @@ header {
 }
 .second_img {
   margin: 17px 0 17px 0;
-  width: 213px;
+  width: 50%;
   height: 225px;
+  object-fit: contain;
 }
 
 .thirt_fig {
@@ -185,10 +187,7 @@ header {
   width: 193px;
   height: 193px;
 }
-.first_fig,
-.second-figure {
-  margin-right: 104px;
-}
+
 .header {
   padding-bottom: 30px;
 }
@@ -239,6 +238,8 @@ header {
   font-weight: 800;
   color: white;
   font-size: 25px;
+  padding-top: 10px;
+
 }
 .m_f_img {
   width: 294px;
@@ -269,13 +270,12 @@ header {
   background: url("../img/Quality\ our\ bekary.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: #202023;
 }
 .quality_h {
   text-align: right;
-  padding-right: 100px;
-  padding-top: 90px;
+  padding-right: 120px;
+  padding-top: 150px;
   color: white;
   font-family: "Italiana", sans-serif;
   font-weight: 400;
@@ -284,7 +284,7 @@ header {
 .quality_f_figure {
 }
 .quality_f_list {
-  background-color: rgba(242, 242, 242, 0.3);
+  background-color: rgb(121, 121, 121);
   width: 292px;
   height: 198px;
   padding-left: 50px;
@@ -293,7 +293,6 @@ header {
 }
 .quality_f_item {
   padding-top: 5px;
-  text-align: center;
   color: white;
 }
 .quality_div {
@@ -391,6 +390,7 @@ header {
   font-weight: 400;
   font-size: 40px;
   color: white;
+  padding-bottom: 50px;
 
  
 }
@@ -399,6 +399,7 @@ header {
   color: white;
   font-weight: 400;
   font-size: 40px;
+  padding-bottom: 40px;
 
 
 }
@@ -446,24 +447,27 @@ padding: 70px 0;
   justify-content: space-between;
   
 }
-/* .footer_div4_h {
-  padding-left: 30px;
-} */
-.whw_how_div {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column; */
-}
-.div_div {
-  padding-left: 200px;
-}
-.ab {
-  padding-left: 200px;
-  
-}
+
 .whw_wrap{
   display: flex;
   justify-content: space-between;
+  
+  
 }
+.newspan {
+  padding-left: 40px;
+}
+.new {
+  padding-left: 0;
+  padding-top: 16px;
+}
+.footer_out_p {
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+} 
+
+
+
 
